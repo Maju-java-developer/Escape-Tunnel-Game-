@@ -24,7 +24,7 @@ public class Player {
         position = new PVector(100, 300);
         size = new Dimension(60, 60);
         
-        playerIcon = Defaults.recaleIcon(size.width, size.height, 
+        playerIcon = Defaults.rescaleIcon(size.width, size.height,
                 new File("").getAbsolutePath() + "\\src\\res\\angryBirds.png"
         );
     }

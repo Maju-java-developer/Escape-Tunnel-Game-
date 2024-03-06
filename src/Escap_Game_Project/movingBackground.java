@@ -23,7 +23,7 @@ public class movingBackground {
         
         position = new PVector(0, 0);
         
-        background = Defaults.recaleIcon(screenSize.width, screenSize.height, 
+        background = Defaults.rescaleIcon(screenSize.width, screenSize.height,
                 new File("").getAbsolutePath()+ "\\src\\res\\Background.png"
         );
     }

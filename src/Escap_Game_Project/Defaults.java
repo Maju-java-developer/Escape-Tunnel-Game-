@@ -16,7 +16,7 @@ import javax.swing.ImageIcon;
 
 public class Defaults {
 
-    public static ImageIcon recaleIcon(int posX, int posY, String path){
+    public static ImageIcon rescaleIcon(int posX, int posY, String path){
         ImageIcon icon = new ImageIcon(
                 new ImageIcon(path).
                         getImage().

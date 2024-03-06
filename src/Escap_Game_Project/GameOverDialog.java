@@ -33,12 +33,12 @@ public class GameOverDialog extends JDialog{
         gameOverLbl.setFont(new Font("Sougu UI Light", 0, 18));
         gameOverLbl.setForeground(Color.WHITE);
         
-        scoreLbl.setIcon(Defaults.recaleIcon(30, 30, rootPath + "Score.png"));
+        scoreLbl.setIcon(Defaults.rescaleIcon(30, 30, rootPath + "Score.png"));
         scoreLbl.setFont(new Font("Sogue UI Light", 0, 18));
         scoreLbl.setBounds(width / 3, height / 4, 200, 50);
         scoreLbl.setIconTextGap(20);
 
-        killTimeLbl.setIcon(Defaults.recaleIcon(30, 30, rootPath + "fire_1f525.png"));
+        killTimeLbl.setIcon(Defaults.rescaleIcon(30, 30, rootPath + "fire_1f525.png"));
         killTimeLbl.setFont(new Font("Sogue UI Light", 0, 18));
         killTimeLbl.setBounds(width / 3 , height / 4 + scoreLbl.getY(), 200, 50);
         killTimeLbl.setIconTextGap(20);

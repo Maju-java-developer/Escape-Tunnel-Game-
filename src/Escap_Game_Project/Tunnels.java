@@ -1,7 +1,6 @@
 package Escap_Game_Project;
 
 import java.awt.Dimension;
-import java.awt.Image;
 import java.io.File;
 import javax.swing.ImageIcon;
 import processing.core.PVector;
@@ -22,7 +21,7 @@ public class Tunnels {
         position = new PVector(screenSize.width, 0);
         size = new Dimension(70, RandomRange.randomInt(200, screenSize.height - 160));
         
-        tunnelIcon = Defaults.recaleIcon(size.width, size.height,
+        tunnelIcon = Defaults.rescaleIcon(size.width, size.height,
                 new File("").getAbsolutePath() +"\\src\\res\\tunnels1.png"
         );
     }
