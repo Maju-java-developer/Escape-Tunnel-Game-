@@ -26,7 +26,7 @@ public class Tunnels {
         );
     }
     
-    public void Tunnelsupdate(){
+    public void tunnelsUpdate(){
         position.x -= tunnelsVelX;
     }
     

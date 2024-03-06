@@ -72,7 +72,7 @@ public class EscapeTunnelGameGenerator extends JPanel{
             public void actionPerformed(ActionEvent e) {
                 
                 for (int i = 0; i < tunnelsList.size(); i++) {
-                    tunnelsList.get(i).Tunnelsupdate();
+                    tunnelsList.get(i).tunnelsUpdate();
 
                     // If My Player Ecsap Form Tunnels: 
                     if (tunnelsList.get(i).size.height <= player.size.width) {
