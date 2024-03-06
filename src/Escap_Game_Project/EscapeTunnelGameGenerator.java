@@ -5,7 +5,6 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.Insets;
 import java.awt.Rectangle;
 import java.awt.RenderingHints;
 import java.awt.event.ActionEvent;
@@ -13,12 +12,11 @@ import java.awt.event.ActionListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 import processing.core.PVector;
 
-public class Escap__Generator extends JPanel{
+public class EscapeTunnelGameGenerator extends JPanel{
     int width;
     int height;
 
@@ -31,7 +29,7 @@ public class Escap__Generator extends JPanel{
     
     ArrayList<Tunnels> tunnelsList = new ArrayList<Tunnels>();
 
-    public Escap__Generator(int width, int height) {
+    public EscapeTunnelGameGenerator(int width, int height) {
         this.width = width;
         this.height = height;
     }

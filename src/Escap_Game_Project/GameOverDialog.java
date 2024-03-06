@@ -6,7 +6,6 @@ import java.awt.GridLayout;
 import java.io.File;
 import javax.swing.JButton;
 import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
@@ -15,7 +14,7 @@ public class GameOverDialog extends JDialog{
     String rootPath = new File("").getAbsolutePath() +"\\src\\res\\";
 
     public GameOverDialog(){}
-    public GameOverDialog(Escap__Generator gameGenerator){
+    public GameOverDialog(EscapeTunnelGameGenerator gameGenerator){
         
         int width = gameGenerator.width - (gameGenerator.width / 2);
         int height = gameGenerator.height - (gameGenerator.height / 2);

@@ -32,13 +32,11 @@ public class Player {
     public void update(){
         velecity += garavity;
         position.y += velecity;
-        System.out.println("VeleCity: " + velecity);
     }
     
     public void moveUp(){
         velecity += lift;
         velecity *= 0.5f;
-        System.out.println("VeleCity: " + velecity);
     }
     
 }
